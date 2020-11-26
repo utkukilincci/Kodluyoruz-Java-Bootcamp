@@ -1,0 +1,10 @@
+
+p
+java:S3008"SRename this field "tek_obje" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áçµ¥8Ž’¹äÚ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(×ÆŠ´úÿÿÿÿ8—ØˆåÚ.
+K
+java:S1444".Make this "public static tek_obje" field final(Áçµ¥8Ž’¹äÚ.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë•ûžûÿÿÿÿ8ÁüºäÚ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á£óÆÿÿÿÿÿ
+q
+java:S1104"TMake tek_obje a static final constant or non-public and provide accessors if needed.(Áçµ¥8Ž’¹äÚ.

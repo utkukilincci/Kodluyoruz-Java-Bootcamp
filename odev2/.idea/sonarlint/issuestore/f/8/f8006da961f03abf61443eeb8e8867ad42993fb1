@@ -1,0 +1,12 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ãæş«úÿÿÿÿ8åŸÊ³İ.
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(’¾—Î8Í‚è³İ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(È¯Õßøÿÿÿÿ8—¸È³İ.
+Q
+java:S3740"/Provide the parametrized type for this generic.(Ñé øÿÿÿÿ8â¯¬êİ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(…×¹Ù8Œ¢ÿ¶İ.
+L
+java:S3740"/Provide the parametrized type for this generic.(Íİ•í8Ì÷ô¶İ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(§šŒşÿÿÿÿ8İ˜•¸İ.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(’¿Ô$
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(ûêÄÏÿÿÿÿÿ8üîè³İ.

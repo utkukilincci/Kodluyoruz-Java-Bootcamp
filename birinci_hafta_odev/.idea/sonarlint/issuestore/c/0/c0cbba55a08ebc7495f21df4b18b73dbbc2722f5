@@ -1,0 +1,7 @@
+
+X
+java:S1854";Remove this useless assignment to local variable "deneme2".(‰¯éÈ8•®åÚ.
+I
+java:S1481",Remove this unused "deneme2" local variable.(‰¯éÈ8•®åÚ.
+X	java:S125"<This block of commented-out lines of code should be removed.(‰¤«8«±’åÚ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á£óÆÿÿÿÿÿ

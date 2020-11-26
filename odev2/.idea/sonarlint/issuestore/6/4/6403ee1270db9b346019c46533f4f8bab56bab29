@@ -1,0 +1,30 @@
+
+V	java:S106¤"9Replace this use of System.out or System.err by a logger.(ñÎ‘‚8ˆéÛ¶İ.
+[	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(†ÿæªùÿÿÿÿ8†ˆÕ¶İ.
+V	java:S106©"9Replace this use of System.out or System.err by a logger.(Ò½ºŠ8ˆéÛ¶İ.
+V	java:S106´"9Replace this use of System.out or System.err by a logger.(í¯‚’8ˆéÛ¶İ.
+V	java:S106º"9Replace this use of System.out or System.err by a logger.(ñÎ‘‚8ˆéÛ¶İ.
+U	java:S106."9Replace this use of System.out or System.err by a logger.(ç‘ğò8­›²·İ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÍèáıÿÿÿÿ8ÿÎğµİ.
+V	java:S106™"9Replace this use of System.out or System.err by a logger.(ñÎ‘‚8ˆéÛ¶İ.
+M
+java:S3740†"/Provide the parametrized type for this generic.(æåÑË8şĞŠ·İ.
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(òÕ®8Ú¥‰¸İ.
+T	java:S106{"9Replace this use of System.out or System.err by a logger.(ş·¾8Ú¥‰¸İ.
+U	java:S106b"9Replace this use of System.out or System.err by a logger.(Š½Ï8Ú¥‰¸İ.
+V	java:S106¯"9Replace this use of System.out or System.err by a logger.(ñÎ‘‚8ˆéÛ¶İ.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(ñÎ‘‚8†ˆÕ¶İ.
+ˆ
+java:S1192"jDefine a constant instead of duplicating this literal "YanlÄ±ÅŸ giriÅŸ yaptÄ±nÄ±z tekrar deneyin" 5 times.(ñÎ‘‚8ˆéÛ¶İ.
+Q
+java:S3740"/Provide the parametrized type for this generic.(ŠàÂìùÿÿÿÿ8ìİŒ·İ.
+Q
+java:S3740"/Provide the parametrized type for this generic.(ŠàÂìùÿÿÿÿ8ìİŒ·İ.
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(Š½Ï8ŞìÜ·İ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ùü8…Øøµİ.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(İşœ8ˆéÛ¶İ.
+T	java:S106M"9Replace this use of System.out or System.err by a logger.(ş·¾8â í·İ.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(’¿Ô$
+V	java:S106“"9Replace this use of System.out or System.err by a logger.(””¢‘8ˆéÛ¶İ.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(Çµí‘8ÊÎò·İ.
