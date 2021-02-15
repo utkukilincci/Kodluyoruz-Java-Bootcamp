@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Add Patient</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"
+		  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script>
+         $(function() {
+             $("#datepicker").datepicker({dateFormat:"dd-mm-yy"});
+         });
+      </script>
+	<style>
+         .error{
+         color:red;
+         }
+      </style>
+</head>
+
+
+
+<body>
+	<div th:insert="fragments/header :: header"></div>
+	<div class="container my-5">
+		<h3>Add Patient</h3>
+		<div class="card">
+			<div class="card-body">
+				<div class="col-md-10">
+					<form action="#" th:action="@{/add-patient}" th:object="${patient}"
+						method="post">
+						<div class="row">
+
+							<div class="form-group col-md-8">
+								<label for="tcNumber" class="col-form-label">TC Number</label>
+								<input type="text" th:field="*{tcNumber}" class="form-control" id="tcNumber" placeholder="Tc Number" />
+								<span th:if="${#fields.hasErrors('tcNumber')}" th:errors="*{tcNumber}"></span>
+							</div>
+
+							<div class="form-group col-md-8">
+								<label for="name" class="col-form-label">Patient Name</label>
+								<input type="text" th:field="*{name}" class="form-control" id="name"placeholder="Patient Name" />
+							</div>
+
+							<div class="form-group col-md-8">
+								<label for="phoneNumber" class="col-form-label">Phone Number </label>
+								<input type="text" th:field="*{phoneNumber}" class="form-control" id="phoneNumber" placeholder="Phone Number" />
+							</div>
+
+							<div class="form-group col-md-8">
+								<label>BirthDate</label>
+								<input class="form-control" type="text" id="datepicker" th:field="*{birthDate}">
+								<span class="error" th:if="${#fields.hasErrors('birthDate')}" th:errors="*{birthDate}">BirthDate Error</span>
+							</div>
+
+
+							<div class="form-group col-md-8">
+								<label for="complaint" class="col-form-label">Complaint</label>
+								<input type="text" th:field="*{complaint}" class="form-control" id="complaint" placeholder="Complaint" />
+							</div>
+							
+					
+							<div class="form-group col-md-8">
+								<label for="departments" class="col-form-label">Department</label>
+								<select th:field ="*{departments}" class="form-control" >
+   									<option th:each="department: ${departments}" th:value="${department.id}" th:text = "${department.name}"></option>
+								</select>
+							</div>
+							
+							<div class="form-group col-md-8">
+								<label for="doctors" class="col-form-label">Doctor</label>
+								<select th:field ="*{doctors}" class="form-control" >
+   									<option th:each="doctor: ${doctors}" th:value="${doctor.id}" th:text = "${doctor.name}"></option>
+								</select>
+							</div>	
+
+							
+							<div class="col-md-6">
+								<input type="submit" class="btn btn-primary" value=" Submit ">
+							</div>
+
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div th:insert="fragments/footer :: footer"></div>
+
+</body>
+
+</html>
